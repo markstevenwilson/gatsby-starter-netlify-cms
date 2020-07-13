@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Mark Steven Wilson - Multiple Disciplinary Technologist',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Thoughts, Articles and Solutions from Westminster CO based Solution Architect Mark Wilson',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

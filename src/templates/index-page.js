@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import PortfolioRoll from '../components/PortfolioRoll'
 
 export const IndexPageTemplate = ({
   image,

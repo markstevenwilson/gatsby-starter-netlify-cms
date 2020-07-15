@@ -26,13 +26,13 @@ module.exports = {
     resolve: 'gatsby-plugin-google-marketing-platform',
     options: {
       dataLayer: {
-        gaPropertyId: '[Google Analytics ID]',
+        gaPropertyId: 'UA-172684087-1',
       },
       tagmanager: {
-        id: '[Google Tag Manager ID]'
+        id: 'GTM-MMJ9PK8'
       },
       analytics: {
-        id: '[Google Analytics ID]'
+        id: 'UA-172684087-1'
       }
     },
   },    

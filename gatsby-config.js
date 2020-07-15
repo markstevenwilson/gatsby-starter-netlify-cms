@@ -23,6 +23,20 @@ module.exports = {
       },
     },
     {
+    resolve: 'gatsby-plugin-google-marketing-platform',
+    options: {
+      dataLayer: {
+        gaPropertyId: '[Google Analytics ID]',
+      },
+      tagmanager: {
+        id: '[Google Tag Manager ID]'
+      },
+      analytics: {
+        id: '[Google Analytics ID]'
+      }
+    },
+  },    
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/img`,

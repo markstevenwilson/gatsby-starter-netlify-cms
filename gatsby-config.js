@@ -29,7 +29,7 @@ module.exports = {
         gaPropertyId: 'UA-172684087-1',
       },
       tagmanager: {
-        id: 'GTM-MMJ9PK8'
+        id: 'GTM-PWQMGL3'
       },
       analytics: {
         id: 'UA-172684087-1'

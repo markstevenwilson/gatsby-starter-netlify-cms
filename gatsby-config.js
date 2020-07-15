@@ -30,7 +30,7 @@ module.exports = {
           gaPropertyId: 'UA-172684087-1',
         },
         tagmanager: {
-          id: '[GTM-PWQMGL3]',
+          id: 'GTM-PWQMGL3',
           params: {
             // GTM URL Parameters
             // Ex: https://www.googletagmanager.com/gtm.js?id=[ID]&gtm_cookies_win=x

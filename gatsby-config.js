@@ -23,16 +23,39 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-google-marketing-platform',
+      options: {
+        dataLayer: {
+          // Preset dataLayer values
+          gaPropertyId: 'UA-172684087-1',
+        },
+        tagmanager: {
+          id: '[GTM-PWQMGL3]',
+          params: {
+            // GTM URL Parameters
+            // Ex: https://www.googletagmanager.com/gtm.js?id=[ID]&gtm_cookies_win=x
+            gtm_cookies_win: 'x'
+          }
+        },
+        analytics: {
+          id: 'UA-172684087-1',
+        },
+        optimize: {
+          id: 'OPT-5MKHDFX',
+        }
+      }
+    },
+    {
     resolve: 'gatsby-plugin-google-marketing-platform',
     options: {
       dataLayer: {
-        gaPropertyId: 'UA-172684087-1',
+        gaPropertyId: '',
       },
       tagmanager: {
         id: 'GTM-PWQMGL3'
       },
       analytics: {
-        id: 'UA-172684087-1'
+        id: ''
       }
     },
   },    

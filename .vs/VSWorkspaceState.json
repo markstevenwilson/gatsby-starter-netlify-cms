@@ -1,6 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\cms",
+    "\\src\\components",
+    "\\src\\img",
+    "\\src\\img\\icons",
+    "\\src\\img\\portfolio",
+    "\\src\\pages",
+    "\\src\\pages\\about",
+    "\\src\\pages\\products"
   ],
+  "SelectedNode": "\\src\\pages\\portfolio\\2008-11-04-insure-dot-com-wordpress-blog.md",
   "PreviewInSolutionExplorer": false
 }

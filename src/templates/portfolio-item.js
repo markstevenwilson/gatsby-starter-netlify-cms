@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Badges from '../components/Badges'
 
 export const PortfolioItemTemplate = ({
     content,
@@ -12,6 +13,7 @@ export const PortfolioItemTemplate = ({
     description,
     tags,
     title,
+    outro,
     helmet,
 }) => {
     const PostContent = contentComponent || Content
@@ -39,6 +41,7 @@ export const PortfolioItemTemplate = ({
                                 </ul>
                             </div>
                         ) : null}
+                        <Badges badgeItems={outro.blurbs} />
                     </div>
                 </div>
             </div>
@@ -52,6 +55,9 @@ PortfolioItemTemplate.propTypes = {
     description: PropTypes.string,
     title: PropTypes.string,
     helmet: PropTypes.object,
+    outro: PropTypes.shape({
+        blurbs: PropTypes.array,
+    }),
 }
 
 const PortfolioItem = ({ data }) => {
@@ -74,6 +80,7 @@ const PortfolioItem = ({ data }) => {
                 }
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
+                intro={post.frontmatter.outro}
             />
         </Layout>
     )

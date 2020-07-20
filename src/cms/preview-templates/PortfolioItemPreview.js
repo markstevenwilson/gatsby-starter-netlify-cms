@@ -4,8 +4,11 @@ import { PortfolioItemTemplate } from '../../templates/portfolio-item'
 
 const PortfolioItemPreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(['data', 'tags'])
+  const badges = entry.getIn(['data', 'badges'])
+ 
   return (
-    <PortfolioItemTemplate
+      <PortfolioItemTemplate
+      badges={badges && badges.toJS()}
       content={widgetFor('body')}
       description={entry.getIn(['data', 'description'])}
       tags={tags && tags.toJS()}

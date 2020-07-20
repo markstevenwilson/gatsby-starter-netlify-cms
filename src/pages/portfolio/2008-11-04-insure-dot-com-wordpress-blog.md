@@ -3,11 +3,10 @@ templateKey: portfolio-item
 title: Insure.com Wordpress Blog
 date: 2008-11-04T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/portfolio/2009-blog-insure-dot-com-thumbnail.png
+featuredimage: 2009-blog-insure-dot-com-thumbnail.png
 description: Launched in November of 2008 this Wordpress site using PHP, MySQL, JavaScript, jQuery, HTML and CSS. I Lead all development and worked with our Editorial, Marketing, IT and Business teams to scope project requirements to create a project roadmap.
 tags:
   - Wordpress
-		tagsvg: /img/icons/wordpress.svg
   - MySql
   - PHP
   - Javascript
@@ -16,8 +15,43 @@ tags:
   - CSS
   - UI/UX
   - Google Analytics
+technologies:
+  heading: Monthly subscriptions
+  description: >-
+    We make it easy to make great coffee a part of your life. Choose one of our
+    monthly subscription plans to receive great coffee at your doorstep each
+    month. Contact us about more details and payment info.
+  technology:
+    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+      items:
+        - 3 lbs of coffee per month
+        - Green or roasted beans"
+        - One or two varieties of beans" 
+      techname: Small
+      svgicon: 
+        alt: A close-up of a paper filter filled with ground coffee
+        image: /img/products-grid3.jpg
+    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+      items:
+        - 6 lbs of coffee per month
+        - Green or roasted beans
+        - Up to 4 different varieties of beans
+      techname: Big
+      svgicon: 
+        alt: A close-up of a paper filter filled with ground coffee
+        image: /img/products-grid3.jpg
+    - description: Want a few tiny batches from different varieties? Try our custom plan
+      items:
+        - Whatever you need
+        - Green or roasted beans
+        - Unlimited varieties
+      techname: Custom
+      svgicon: 
+        alt: A close-up of a paper filter filled with ground coffee
+        image: /img/products-grid3.jpg
+
 ---
-![Wordpress](/images/portfolio/2009-blog-insure-dot-com-thumbnail.jpg)
+![Wordpress](2009-blog-insure-dot-com-thumbnail.png)
 
 I joined Insure.com in January of 2008 where I had was originally bought on as a help desk administrator. One of my tasks was to take Microsoft Word documents sent over from our Editorial team and to update our Website with the contents of the document.
 

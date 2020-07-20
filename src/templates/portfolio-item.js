@@ -4,6 +4,7 @@ import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import Technologies from '../components/Technologies'
 import Content, { HTMLContent } from '../components/Content'
 
 export const PortfolioItemTemplate = ({
@@ -12,6 +13,7 @@ export const PortfolioItemTemplate = ({
     description,
     tags,
     title,
+    technologies,
     helmet,
 }) => {
     const PostContent = contentComponent || Content
@@ -40,6 +42,11 @@ export const PortfolioItemTemplate = ({
                             </div>
                         ) : null}
                     </div>
+                    <h2 className="has-text-weight-semibold is-size-2">
+                        {technologies.heading}
+                    </h2>
+                    <p className="is-size-5">{technologies.description}</p>
+                    <Technologies data={technologies.technology} />
                 </div>
             </div>
         </section>
@@ -52,6 +59,11 @@ PortfolioItemTemplate.propTypes = {
     description: PropTypes.string,
     title: PropTypes.string,
     helmet: PropTypes.object,
+    technologies: PropTypes.shape({
+        heading: PropTypes.string,
+        description: PropTypes.string,
+        technology: PropTypes.array,
+    }),
 }
 
 const PortfolioItem = ({ data }) => {
@@ -72,6 +84,7 @@ const PortfolioItem = ({ data }) => {
                         />
                     </Helmet>
                 }
+                technologies={post.frontmatter.technologies}
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
             />
@@ -97,6 +110,25 @@ export const pageQuery = graphql`
         title
         description
         tags
+        technologies {
+          heading
+          description
+          technology {
+            techname
+            svgicon {
+                alt
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 526, quality: 92) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+            description
+            items
+          }
+        }
       }
     }
   }

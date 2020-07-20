@@ -7,6 +7,7 @@ featuredimage: /img/portfolio/2009-blog-insure-dot-com-thumbnail.png
 description: Launched in November of 2008 this Wordpress site using PHP, MySQL, JavaScript, jQuery, HTML and CSS. I Lead all development and worked with our Editorial, Marketing, IT and Business teams to scope project requirements to create a project roadmap.
 tags:
   - Wordpress
+		tagsvg: /img/icons/wordpress.svg
   - MySql
   - PHP
   - Javascript
@@ -15,18 +16,8 @@ tags:
   - CSS
   - UI/UX
   - Google Analytics
-outro:
-  blurbs:
-    - image: /img/icons/wordpress.svg
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-	
 ---
-![Wordpress](/img/portfolio/2009-blog-insure-dot-com-thumbnail.png)
+![Wordpress](/images/portfolio/2009-blog-insure-dot-com-thumbnail.jpg)
 
 I joined Insure.com in January of 2008 where I had was originally bought on as a help desk administrator. One of my tasks was to take Microsoft Word documents sent over from our Editorial team and to update our Website with the contents of the document.
 
@@ -39,4 +30,3 @@ When the IT team was looking into a stand-alone solution to manage editorial con
 I worked with the Editorial team to customize the content editing experience and trained them on how to manage their content. I Created custom Google Analytics reports for the marketing team and created custom document fields to manage SEO page data. The site had several 3rd party marketing tools that were integrated into the site and managed through custom plugins.
 
 The Editorial team was able to bring 30 years’ worth of Insurance content online and the marketing team had a new lead channel with a lower acquisition cost and higher conversion rates. The Insure.com branding, content and website were sold in [October 2009 for $16 Million USD](https://techcrunch.com/2009/10/09/insure-com-sells-for-16-million/) which was the most expensive acquisition of a single domain at the time and still ranks in the top 10 as of July 2020.
-

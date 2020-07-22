@@ -41,13 +41,15 @@ export const PortfolioItemTemplate = ({
                                 </ul>
                             </div>
                         ) : null}
+                        <h2 className="has-text-weight-semibold is-size-2">
+                            {technologies.heading}
+                        </h2>
+                        <p className="is-size-5">{technologies.description}</p>
+                        <Technologies data={technologies.technology} />
+
                     </div>
-                    <h2 className="has-text-weight-semibold is-size-2">
-                        {technologies.heading}
-                    </h2>
-                    <p className="is-size-5">{technologies.description}</p>
-                    <Technologies data={technologies.technology} />
                 </div>
+
             </div>
         </section>
     )
@@ -119,7 +121,7 @@ export const pageQuery = graphql`
                 alt
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 526, quality: 92) {
+                    fluid(maxWidth: 300, quality: 100, maxHeight: 300) {
                       ...GatsbyImageSharpFluid
                     }
                   }

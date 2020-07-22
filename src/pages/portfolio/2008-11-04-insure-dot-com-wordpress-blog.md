@@ -4,7 +4,7 @@ title: Insure.com Wordpress Blog
 date: 2008-11-04T15:04:10.000Z
 featuredpost: false
 featuredimage: 2009-blog-insure-dot-com-thumbnail.png
-description: Launched in November of 2008 this Wordpress site using PHP, MySQL, JavaScript, jQuery, HTML and CSS. I Lead all development and worked with our Editorial, Marketing, IT and Business teams to scope project requirements to create a project roadmap.
+description: Launched in November of 2008 I Lead all development and worked with our Editorial, Marketing, IT and Business teams to scope project requirements to create a project roadmap.
 tags:
   - Wordpress
   - MySql
@@ -16,40 +16,64 @@ tags:
   - UI/UX
   - Google Analytics
 technologies:
-  heading: Monthly subscriptions
+  heading: Tehcnologies Used
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    The Insure.com Blog was built around Wordpress. Using PHP for custom plugin, theme and document types. On the front end I used a combination of HTML5, CSS and Javascript.
   technology:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: 
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans" 
-      techname: Small
+        - Setup Authoring Workflows.
+        - Extended SEO plugins to use custom fields.
+        - Trained other employees on how to use Wordpress.
+      techname: Wordpress
       svgicon: 
-        alt: A close-up of a paper filter filled with ground coffee
-        image: /img/products-grid3.jpg
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+        alt: Wordpress
+        image: /img/icons/wordpress.png
+    - description: 
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      techname: Big
+        - Wrote custom PHP code to integrate 3rd party marketing tools.
+        - Developed custom scripts to synchronize data between two production servers.
+        - Put a backup and archiving process in place.
+      techname: PHP
       svgicon: 
-        alt: A close-up of a paper filter filled with ground coffee
-        image: /img/products-grid3.jpg
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        alt: PHP
+        image: /img/icons/php.png
+    - description: 
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      techname: Custom
+        - Setup and administered two server
+        - Automated server backup and data syncs.
+        - Wrote custom queries to build website performance reports.
+      techname: MySQL
       svgicon: 
-        alt: A close-up of a paper filter filled with ground coffee
-        image: /img/products-grid3.jpg
-
+        alt: MySQL
+        image: /img/icons/mysql.jpg
+    - description: The default database server for a wordpress instance.
+      items:
+        - Setup and administered two server
+        - Automated server backup and data syncs.
+        - Wrote custom queries to build website performance reports.
+      techname: HTML5
+      svgicon: 
+        alt: HTML5
+        image: /img/icons/html5.png
+    - description: 
+      items:
+        - Setup and administered two server
+        - Automated server backup and data syncs.
+        - Wrote custom queries to build website performance reports.
+      techname: javaScript
+      svgicon: 
+        alt: Javascript
+        image: /img/icons/javascript.png
+    - description: The default database server for a wordpress instance.
+      items:
+        - Setup and administered two server
+        - Automated server backup and data syncs.
+        - Wrote custom queries to build website performance reports.
+      techname: javaScript
+      svgicon: 
+        alt: Javascript
+        image: /img/icons/google-analytics.png
 ---
 ![Wordpress](2009-blog-insure-dot-com-thumbnail.png)
 

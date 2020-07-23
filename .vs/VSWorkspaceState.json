@@ -3,14 +3,9 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\img",
-    "\\src\\img\\icons",
-    "\\src\\img\\portfolio",
     "\\src\\pages",
-    "\\src\\pages\\about",
-    "\\src\\pages\\products",
-    "\\src\\templates"
+    "\\src\\pages\\portfolio"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\components\\Technologies.js",
   "PreviewInSolutionExplorer": false
 }

@@ -29,6 +29,11 @@ export const PortfolioItemTemplate = ({
                         </h1>
                         <p>{description}</p>
                         <PostContent content={content} />
+                        <h2 className="has-text-weight-semibold is-size-2">
+                            {technologies.heading}
+                        </h2>
+                        <Technologies data={technologies.technology} />
+
                         {tags && tags.length ? (
                             <div style={{ marginTop: `4rem` }}>
                                 <h4>Tags</h4>
@@ -41,12 +46,6 @@ export const PortfolioItemTemplate = ({
                                 </ul>
                             </div>
                         ) : null}
-                        <h2 className="has-text-weight-semibold is-size-2">
-                            {technologies.heading}
-                        </h2>
-                        <p className="is-size-5">{technologies.description}</p>
-                        <Technologies data={technologies.technology} />
-
                     </div>
                 </div>
 
